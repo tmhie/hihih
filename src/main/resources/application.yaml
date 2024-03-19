@@ -1,0 +1,14 @@
+server:
+  port: 5454
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/shop_fashion
+    username: postgres
+    password: hieutm
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
